@@ -15,6 +15,8 @@ void draw()
       counter += dice.num;
     }
   }
+  textSize(20);
+  textAlign(CENTER, CENTER);
   text("Sum = " + counter, 0, 750, width, 50);
   counter = 0;
 }
