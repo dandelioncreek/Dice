@@ -21,9 +21,29 @@ void draw()
   text("Sum = " + counter, 0, 450, width, 50);
   
   if (counter <= 15){
-    textSize(20);
+    textSize(10);
     textAlign(CENTER, CENTER);
-    text("qeawtfgh" + counter, 0, 500, width, 50);
+    text("Your arrows graze the skin of your enemies, but they only flinch and brush them off with ease. Some stagger slightly, but soon they start advancing once more with vicious snarls. Your cry of triumph dies on your lips; it is their move, and you only brace for the next assualt because there is nothing left to say." + counter, 0, 500, width, 50);
+  }
+  if (counter > 15 && counter <= 21){
+    textSize(10);
+    textAlign(CENTER, CENTER);
+    text("Your sword slashed through your enemies' arms." + counter, 0, 500, width, 50);
+  }
+  if (counter > 21 && counter <= 26){
+    textSize(10);
+    textAlign(CENTER, CENTER);
+    text("" + counter, 0, 500, width, 50);
+  }
+  if (counter > 26 && counter <= 31){
+    textSize(10);
+    textAlign(CENTER, CENTER);
+    text("" + counter, 0, 500, width, 50);
+  }
+  if (counter > 31){
+    textSize(10);
+    textAlign(CENTER, CENTER);
+    text("Your cannonball blasts through your enemies' ranks, blowing them up to smithereens. Here and there scattered on the battlefield is a still-trembling hand, but that doesn't matter - the city is saved and the cheers erupting from the crowd drown out your elated scream of victory." + counter, 0, 500, width, 50);
   }
 }
 void mousePressed()
